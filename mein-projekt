@@ -1,0 +1,16 @@
+{
+  "name": "mein-projekt",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "express": "^5.x"
+  },
+  "devDependencies": {
+    "typescript": "^5.x",
+    "@types/express": "...",
+    "@types/node": "...",
+    "tsx": "..."
+  }
+}
