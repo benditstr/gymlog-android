@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="de.th.nuernberg.bme.gymlog.ui.home.HomeFragment"
+        android:label="Start" />
+
+    <fragment
+        android:id="@+id/logFragment"
+        android:name="de.th.nuernberg.bme.gymlog.ui.log.LogFragment"
+        android:label="Eintragen" />
+
+    <fragment
+        android:id="@+id/exercisesFragment"
+        android:name="de.th.nuernberg.bme.gymlog.ui.exercises.ExercisesFragment"
+        android:label="Übungen">
+        <action
+            android:id="@+id/action_exercises_to_statistics"
+            app:destination="@id/statisticsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="de.th.nuernberg.bme.gymlog.ui.statistics.StatisticsFragment"
+        android:label="Statistiken">
+        <argument
+            android:name="exerciseId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/planFragment"
+        android:name="de.th.nuernberg.bme.gymlog.ui.plan.PlanFragment"
+        android:label="Plan" />
+
+</navigation>

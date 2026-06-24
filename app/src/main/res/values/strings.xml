@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">GymLog</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Start</string>
+    <string name="nav_log">Eintragen</string>
+    <string name="nav_exercises">Übungen</string>
+    <string name="nav_stats">Statistik</string>
+
+    <!-- Log Fragment -->
+    <string name="hint_exercise">Übung wählen</string>
+    <string name="hint_weight">Gewicht (kg)</string>
+    <string name="hint_reps">Wiederholungen</string>
+    <string name="btn_save">Eintragen</string>
+    <string name="label_sets_for_exercise">Einträge für diese Übung</string>
+    <string name="error_weight">Bitte Gewicht eingeben</string>
+    <string name="error_reps">Bitte Wiederholungen eingeben</string>
+    <string name="toast_no_exercises">Erstelle zuerst eine Übung im Tab „Übungen"</string>
+
+    <!-- Exercises Fragment -->
+    <string name="hint_exercise_name">Name der Übung</string>
+    <string name="btn_add">Hinzufügen</string>
+    <string name="empty_exercises">Noch keine Übungen.\nTippe oben einen Namen ein und drücke „Hinzufügen".</string>
+
+    <!-- Home Fragment -->
+    <string name="label_today_day">Heutiger Wochentag</string>
+    <string name="label_last_entries">Letzte 10 Einträge</string>
+    <string name="empty_entries">Noch keine Einträge. Trage im Tab „Eintragen" deinen ersten Satz ein.</string>
+    <string name="label_no_sets_today">Noch kein Training heute</string>
+    <string name="label_sets_today">%d Sätze heute</string>
+
+    <!-- Statistics Fragment -->
+    <string name="label_personal_record">Persönlicher Rekord</string>
+    <string name="label_no_record">–</string>
+    <string name="label_chart_hint">Maximales Gewicht je Trainingstag</string>
+    <string name="empty_stats">Noch keine Daten für diese Übung vorhanden.</string>
+    <string name="empty_stats_no_exercises">Noch keine Übungen vorhanden.\nFüge zuerst Übungen im Tab „Übungen" hinzu.</string>
+
+    <!-- Exercises Fragment – Fehler -->
+    <string name="error_duplicate_exercise">Übung mit diesem Namen existiert bereits</string>
+
+    <!-- Snackbar -->
+    <string name="snackbar_set_deleted">Satz gelöscht</string>
+    <string name="snackbar_exercise_deleted">Übung gelöscht</string>
+    <string name="snackbar_undo">Rückgängig</string>
+    <string name="snackbar_set_saved">Satz eingetragen</string>
+
+    <!-- Plan Fragment -->
+    <string name="nav_plan">Plan</string>
+    <string name="hint_select_plan">Trainingsplan wählen</string>
+    <string name="btn_new_plan">Neuer Plan</string>
+    <string name="btn_delete_plan">Löschen</string>
+    <string name="empty_plan">Noch kein Trainingsplan vorhanden.\nTippe auf „Neuer Plan" um anzufangen.</string>
+    <string name="dialog_plan_name_hint">Planname (z.B. Push/Pull/Legs)</string>
+    <string name="dialog_create_plan_title">Neuen Plan erstellen</string>
+    <string name="dialog_delete_plan_title">Plan löschen?</string>
+    <string name="dialog_delete_plan_message">Alle Einträge dieses Plans werden gelöscht.</string>
+    <string name="dialog_add_exercise_title">Übung hinzufügen</string>
+    <string name="btn_add_exercise_to_day">+ Übung hinzufügen</string>
+
+    <!-- ══ Liquid Glass Redesign ══ -->
+    <!-- Home -->
+    <string name="home_eyebrow_today">Heute</string>
+    <string name="home_streak_desc">Trainings-Streak</string>
+
+    <!-- Screen-Titel -->
+    <string name="title_log">Satz eintragen</string>
+    <string name="title_exercises">Übungen</string>
+    <string name="title_plan">Trainingsplan</string>
+    <string name="title_stats">Fortschritt</string>
+    <string name="label_today_logged">Heute eingetragen</string>
+
+    <!-- Lösch-Bestätigung Übung (UF-01) -->
+    <string name="dialog_delete_exercise_title">%1$s löschen?</string>
+    <string name="dialog_delete_exercise_no_sets">Diese Übung wird entfernt.</string>
+    <string name="btn_delete">Löschen</string>
+    <string name="btn_cancel">Abbrechen</string>
+    <plurals name="dialog_delete_exercise_message">
+        <item quantity="one">Dadurch wird auch %d gespeicherter Satz unwiderruflich entfernt.</item>
+        <item quantity="other">Dadurch werden auch %d gespeicherte Sätze unwiderruflich entfernt.</item>
+    </plurals>
+
+    <!-- PR-Celebration -->
+    <string name="pr_celebration_title">Neuer PR! 🏆</string>
+    <string name="pr_celebration_message">%1$s · %2$s kg</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Weicher radialer Akzent-Glow (ersetzt harte Schatten, Spec 1.3) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <gradient
+        android:type="radial"
+        android:gradientRadius="280dp"
+        android:startColor="@color/glow_accent"
+        android:endColor="@android:color/transparent" />
+</shape>

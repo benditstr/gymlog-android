@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- ══ Liquid Glass — Design-Tokens (Spec 2026-06-10) ══ -->
+
+    <!-- Hintergrund -->
+    <color name="bg_base">#0F0D0C</color>
+
+    <!-- Glass -->
+    <color name="glass_fill">#0AFFFFFF</color>          <!-- weiß @ 4 % -->
+    <color name="glass_border">#12FFFFFF</color>        <!-- weiß @ 7 % -->
+    <color name="glass_sheen">#1AFFFFFF</color>         <!-- weiß @ 10 % (Gradient-Top) -->
+    <color name="glass_fill_dialog">#14FFFFFF</color>   <!-- weiß @ 8 % -->
+    <color name="scrim">#B30F0D0C</color>              <!-- bg_base @ 70 % -->
+    <color name="nav_blur_overlay">#990F0D0C</color>    <!-- bg_base @ 60 % (Blur-Overlay) -->
+
+    <!-- Akzent (Claude Terracotta) -->
+    <color name="accent">#D97757</color>
+    <color name="accent_soft">#29D97757</color>         <!-- accent @ 16 % -->
+    <color name="glow_accent">#1FD97757</color>         <!-- accent @ 12 % (Glow-Drawable) -->
+    <color name="on_accent">#1A0F0A</color>             <!-- Text auf gefülltem Akzent-Button -->
+
+    <!-- Text -->
+    <color name="text_primary">#F3EDE9</color>
+    <color name="text_secondary">#8A817C</color>
+    <color name="text_tertiary">#5C5550</color>
+
+    <!-- Status -->
+    <color name="error_color">#CF6679</color>
+    <color name="error_soft">#2ECF6679</color>          <!-- error @ ~18 % (Swipe-to-Delete) -->
+
+    <!-- ══ Legacy-Aliase → auf neue Tokens umgebogen ══
+         (vermeidet Bruch bestehender Layout-/Theme-Referenzen) -->
+    <color name="bg_primary">#0F0D0C</color>
+    <color name="bg_surface">#0F0D0C</color>
+    <color name="bg_card">#161311</color>
+    <color name="bg_surface_high">#1C1815</color>
+    <color name="violet_primary">#D97757</color>
+    <color name="violet_light">#D97757</color>
+    <color name="violet_container">#29D97757</color>
+    <color name="on_violet_container">#F3EDE9</color>
+    <color name="teal_primary">#D97757</color>
+    <color name="teal_container">#29D97757</color>
+    <color name="on_teal_container">#F3EDE9</color>
+    <color name="text_disabled">#5C5550</color>
+    <color name="outline">#12FFFFFF</color>
+    <color name="outline_variant">#0AFFFFFF</color>
+</resources>
